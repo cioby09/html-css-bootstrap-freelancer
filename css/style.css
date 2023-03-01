@@ -1,0 +1,42 @@
+/* Reset */
+img {
+    max-width: 100%;
+}
+
+/* Common */
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Layout */
+header {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    height: 5rem;
+}
+
+.jumbotron {
+    background-color: #1ABC9C;
+}
+
+.about {
+    background-color: #1ABC9C;
+    padding: 0 15%;
+}
+
+.contact {
+    padding: 0 15%;
+}
+
+.info {
+    background-color: #3A546D;
+    color: #FFFFFF;
+    padding: 2rem;
+}
+
+.copyright {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 2rem;
+}
