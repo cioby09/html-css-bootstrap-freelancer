@@ -16,6 +16,10 @@ header {
     height: 5rem;
 }
 
+.menu {
+    display: none;
+}
+
 .jumbotron {
     background-color: #1ABC9C;
 }
@@ -39,4 +43,19 @@ header {
     background-color: #2C3E50;
     color: #FFFFFF;
     padding: 2rem;
+}
+
+/* Media queries */
+@media screen and (min-width: 576px) {
+    .title_header {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header .btn {
+        display: none;
+    }
 }
