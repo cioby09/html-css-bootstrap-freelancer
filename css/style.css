@@ -92,6 +92,15 @@ header {
     padding: 2rem;
 }
 
+.info .btn {
+    width: 3rem;
+    height: 3rem;
+}
+
+.link_start {
+    color: #1ABC9C;
+}
+
 .copyright {
     background-color: #2C3E50;
     color: #FFFFFF;
@@ -150,6 +159,11 @@ header {
     .contact .star:before,
     .contact .star:after {
         width: 5rem;
+    }
+
+    /* Info */
+    .title_info {
+        font-size: 1.5rem;
     }
 }
 
