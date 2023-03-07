@@ -10,6 +10,8 @@ body a {
 }
 
 /* Layout */
+
+/* Header */
 header {
     background-color: #2C3E50;
     color: #FFFFFF;
@@ -20,6 +22,7 @@ header {
     display: none;
 }
 
+/* Jumbotron */
 .jumbotron {
     background-color: #1ABC9C;
 }
@@ -41,14 +44,21 @@ header {
     background-color: #FFFFFF;
 }
 
+/* Portfolio */
 .portfolio .star:before,
 .portfolio .star:after {
     background-color: #2C3E50;
 }
 
+/* About */
 .about {
     background-color: #1ABC9C;
     padding: 0 15%;
+}
+
+.about .star:before,
+.about .star:after {
+    width: 3rem;
 }
 
 .contact {
@@ -69,6 +79,7 @@ header {
 
 /* Media queries */
 @media screen and (min-width: 576px) {
+    /* Header */
     .title_header {
         font-size: 1.5rem;
     }
@@ -81,6 +92,7 @@ header {
         display: none;
     }
 
+    /* Jumbotron */
     .title_jumbotron {
         font-size: 4rem;
     }
@@ -89,12 +101,30 @@ header {
         font-size: 1.5rem;
     }
 
+    /* Portfolio */
     .title_portfolio {
         font-size: 3rem;
     }
 
     .star:before,
     .star:after {
+        width: 8rem;
+    }
+
+    /* About */
+    .title_about {
+        font-size: 3rem;
+    }
+
+    .about .star:before,
+    .about .star:after {
+        width: 5rem;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .about .star:before,
+    .about .star:after {
         width: 8rem;
     }
 }
