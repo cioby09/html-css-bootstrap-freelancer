@@ -45,6 +45,10 @@ header {
 }
 
 /* Portfolio */
+.portfolio {
+    color: #2C3E50;
+}
+
 .portfolio .star:before,
 .portfolio .star:after {
     background-color: #2C3E50;
@@ -61,10 +65,27 @@ header {
     width: 3rem;
 }
 
+/* Contact */
 .contact {
     padding: 0 15%;
+    color: #2C3E50;
 }
 
+.contact .star:before,
+.contact .star:after {
+    background-color: #2C3E50;
+    width: 3rem;
+}
+
+.contact .btn {
+    background-color: #1ABC9C;
+}
+
+.message {
+    margin-bottom: 10rem;
+}
+
+/* Info */
 .info {
     background-color: #3A546D;
     color: #FFFFFF;
@@ -119,12 +140,27 @@ header {
     .about .star:before,
     .about .star:after {
         width: 5rem;
-    }    
+    }
+
+    /* Contact */
+    .title_contact {
+        font-size: 3rem;
+    }
+
+    .contact .star:before,
+    .contact .star:after {
+        width: 5rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .about .star:before,
     .about .star:after {
+        width: 8rem;
+    }
+
+    .contact .star:before,
+    .contact .star:after {
         width: 8rem;
     }
 }
